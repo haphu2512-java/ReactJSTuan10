@@ -5,6 +5,7 @@ import LogoTitle from './components/LogoTitle';
 import { Nav } from 'react-bootstrap';
 import NavbarMenu from './components/NavbarMenu';
 import Layout from './components/Layout';
+import Content from './components/Content';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
       <Banner /> 
 
       <Layout /> {/* thêm dòng này */}
+
+      <Content />
     </div>
   );
 }

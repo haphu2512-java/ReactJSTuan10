@@ -1,0 +1,47 @@
+/* Content.css */
+
+.content-section {
+    background-color: #bdd6ee;
+    /* Dark blue background */
+    padding: 20px;
+    border-radius: 8px;
+    color: #ffffff;
+    /* White text */
+}
+
+.content-item {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content-item h5 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #ffffff;
+    /* White text */
+}
+
+.content-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.view-all-button {
+    background-color: #ff0000;
+    /* Red button */
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.view-all-button:hover {
+    background-color: #cc0000;
+    /* Darker red on hover */
+}
