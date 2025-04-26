@@ -12,7 +12,7 @@ function App() {
       <LogoTitle /> {/* thêm dòng này */}
       <NavbarMenu />
 
-      {/* <Banner />  */}
+      <Banner /> 
       {/* các thành phần khác */}
     </div>
   );
