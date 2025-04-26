@@ -1,0 +1,97 @@
+.footer-container {
+    background-color: #f0f0f0;
+    /* Example background color */
+    padding: 20px;
+    font-family: sans-serif;
+    /* Example font */
+    color: #333;
+    /* Example text color */
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* Allows sections to wrap on smaller screens */
+    margin-bottom: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    /* Allows sections to grow */
+    margin: 10px;
+    min-width: 200px;
+    /* Minimum width before wrapping */
+}
+
+.footer-section h3 {
+    color: #8b0000;
+    /* Example heading color */
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section li {
+    margin-bottom: 5px;
+}
+
+.footer-section a {
+    color: #333;
+    /* Example link color */
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-middle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    max-width: 150px;
+    /* Adjust as needed */
+    height: auto;
+}
+
+.footer-stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-social a {
+    margin-left: 10px;
+    font-size: 24px;
+    /* Adjust as needed */
+    color: #3b5998;
+    /* Example Facebook color */
+}
+
+.footer-social a:nth-child(3) {
+    color: #00acee;
+    /* Example Twitter color */
+}
+
+.footer-social a:nth-child(4) {
+    color: #0077b5;
+    /* Example LinkedIn color */
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 0.9em;
+    color: #555;
+}

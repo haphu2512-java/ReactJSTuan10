@@ -6,6 +6,7 @@ import { Nav } from 'react-bootstrap';
 import NavbarMenu from './components/NavbarMenu';
 import Layout from './components/Layout';
 import Content from './components/Content';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
       <Layout /> {/* thêm dòng này */}
 
       <Content />
+
+      <Footer />
     </div>
   );
 }
