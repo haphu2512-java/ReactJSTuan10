@@ -1,15 +1,12 @@
-import { useState } from 'react'
-import './App.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import TopHeader from './components/TopHeader';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      
-    </>
-  )
+    <div>
+      <TopHeader />
+      {/* Các phần khác sẽ thêm sau */}
+    </div>
+  );
 }
 
-export default App
+export default App;
