@@ -10,11 +10,12 @@
 
 /* Sidebar styling */
 .sidebar {
-  height: calc(100vh - 60px); /* Full height minus header */
+  height: 60vh; /* Reduced height to 60% of the viewport */
   background-color: #003366; /* Dark blue background */
   color: #ffffff; /* White text */
   padding: 15px;
   border-right: 1px solid #ccc;
+  overflow-y: auto; /* Add scroll if content overflows */
 }
 
 .sidebar h5 {
@@ -31,17 +32,34 @@
 }
 
 .sidebar ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 8px;
   font-size: 16px;
   cursor: pointer;
   color: #ffffff; /* White text */
   padding: 8px;
   border-radius: 4px;
+  background-color: #e8edf2; /* Light gray background */
+  color: #003366; /* Dark blue text */
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: inherit; /* Inherit text color */
+  flex-grow: 1;
 }
 
 .sidebar ul li:hover {
-  background-color: #0056b3; /* Lighter blue on hover */
+  background-color: #d6dce5; /* Slightly darker gray on hover */
   text-decoration: none;
+}
+
+.sidebar ul li::after {
+  content: '\276F'; /* Unicode for right arrow */
+  font-size: 14px;
+  color: #003366; /* Dark blue arrow */
 }
 
 /* Main content styling */
